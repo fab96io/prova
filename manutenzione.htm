@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Emass</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<!-- Gallery -->
+<link rel="stylesheet" href="css/blueimp-gallery.min.css">
+<!-- ------- -->
+</head>
+
+<body>
+<h1>Ing. di manutenzione</h1>
+<p class="operatore"><img src="immagini/ico_operatore.png" width="22" height="27" alt="operatore" />&nbsp;operatore</p>
+<p class="centrato"><img src="MANUTENZIONE/IPC13IM00014.1.1.png" alt="Impianto1" width="510" height="560" usemap="#Map" border="0" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="121,3,268,75" href="SVG/PAA002042D.htm" alt="PAA002042D" />
+    <area shape="rect" coords="368,1,508,75" href="SVG/PAA002043D.htm" alt="PAA002043D" />
+    <area shape="rect" coords="202,469,323,547" href="SVG/PAA002051D.htm" alt="PAA002051D" />
+    <area shape="rect" coords="105,463,201,558" href="SVG/PAA002055D.htm" alt="PAA002055D" />
+    <area shape="rect" coords="420,196,509,290" href="SVG/PAA002365D.htm" alt="PAA002365D" />
+  </map>
+</p>
+<ul class="menu manutenzione">
+  <li><a href="#" onclick="openManutenzione();return false;"><img src="immagini/btn_excel.png" alt="Excel Ing. Manutenzione" width="80" height="80" /></a></li>
+  <li><a href="schede.htm"><img src="immagini/btn_schedeTPM.png" alt="Schede TPM" width="80" height="80" /></a></li>
+  <li class="blu"><a href="home.html"><img src="immagini/btn_home.png" alt="Manutenzione" width="80" height="80" /></a></li>
+</ul>
+<!-- Gallery -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+<script src="js/blueimp-gallery.min.js"></script>
+<script>
+function openManutenzione() {
+	var gallery = blueimp.Gallery([
+		'MANUTENZIONE/I.Manut. RANGHI FASE 3.2.jpg'
+	],{continuous: false});
+}
+</script>
+<!-- ------- -->
+</body>
+</html>

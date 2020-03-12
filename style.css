@@ -1,0 +1,35 @@
+@charset "utf-8";
+html {margin:0px; padding:0px;} 
+body {margin:0px; padding:0px; background:#FFF url(immagini/body_loghi.png) no-repeat left top; font-family:Verdana, Geneva, sans-serif; font-size:15px; font-weight:normal;}
+h1 {font-size:52px; color:#000; font-weight:normal; padding:0px; margin:45px 0px 0px 18px;}
+p.versione {color: #878787; font-size:14px; padding:0px; margin:0px 0px 5px 20px;}
+p.operatore {position:absolute; top:5px; right:15px; color:#888888; font-size:15px; padding:0px; margin:0px;}
+p.centrato {margin:0px auto 80px auto; text-align:center;}
+
+ul li.pdf {margin:0px; padding:0px; list-style-type:none; border-bottom:2px solid #FFF;}
+ul li.pdf a {display:block; color:#fff; height:50px; line-height:50px; padding-left:60px; margin-right:30px; font-size:18px; background:url(immagini/ico_pdf.png) no-repeat 5px center; text-decoration:none;}
+ul li.pdf a:link, ul li.pdf a:visited {background-color:#999999;}
+ul li.pdf a:hover, ul li.pdf a:active {background-color:#333333;}
+
+ul.menu {position:fixed; bottom:0px; width:100%; height:80px; text-align:center;margin:0px; padding:0px;}
+ul.menu li {float:left;margin:0px; padding:0px; list-style-type:none;}
+ul.menu li a {display:block; }
+ul.menu li a:link, ul.menu li a:visited {background-color:#999999; border-right:2px solid #FFF;}
+ul.menu li a:hover, ul.menu li a:active {background-color:#333333; border-right:2px solid #FFF;}
+ul.menu li.blu a:link, ul.menu li.blu a:visited {background-color:#2693FF; border-right:0px;}
+ul.menu li.blu a:hover, ul.menu li.blu a:active {background-color:#333333; border-right:0px;}
+
+ul.home li {width:17%;}
+ul.home li.blu {width:32%;}
+
+ul.pdf li {width:17%;}
+ul.pdf li.blu {width:32%;}
+ul.pdf li {float:right !important;}
+
+/*ul.manutenzione { position:inherit;}*/
+ul.manutenzione li {width:33%;}
+ul.manutenzione li.blu {width:34%;}
+
+/*ul.svg { position:inherit;}*/
+ul.svg li {width:17%;}
+ul.svg li.blu {width:32%;}
